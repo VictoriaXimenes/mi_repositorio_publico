@@ -1,0 +1,238 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+a{
+	text-decoration: none
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	letter-spacing: 7px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	font-family: "Montserrat";
+	letter-spacing: 3px;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #FFA800;
+}
+
+
+p{
+	font-family: "roboto";
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 2;
+	margin-left: 20%;
+	margin-right: 20%
+}
+
+ul{
+	list-style: none;
+	font-size: 0px /* truco por el uso de inline-block*/
+	flex:1;
+}
+
+li{
+	display: inline-block;
+	color:#F44611;
+	font-family: "Roboto";
+	font-weight: bold;
+	letter-spacing: 1px;
+	position: relative;
+	font-size: 13px;
+	text-align: center;
+	padding:5px;
+}
+
+
+ul ul {
+   position: absolute;
+   display: none;
+}
+
+ul ul li {
+   display: block;
+   background: #FFFFFF;
+   width: 100%;
+}
+
+ul li:hover ul {
+   display:block;
+}
+
+hr{		
+	text-align: center;	
+	margin: 35px 47% 15px ;
+}
+
+
+.fileteCentro{
+	color: #F29E32;
+	text-align: center;
+	size: 12px;
+	width: 77px;
+
+}
+
+.textoTitulitos{
+	font-family: "roboto";
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.fondoFooter{
+	font-family: "roboto";
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	background: Black;
+}
+
+
+.imagenApertura {
+	width: 100%
+}
+
+.logoashtangaBA{
+	margin-left:42%;
+	width: 16%;
+}
+
+
+.fotosGaleria{
+	border-radius: 10px;
+	width: 24%;
+}
+
+
+.contenedor-galeria {
+	display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+ 
+
+ .contenedor-galeria img{
+ 	width: 100%;
+ 	border-radius: 7px;
+ }
+    
+       
+.encabezado {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
+}
+
+.img:hover {
+	opacity: 45%;
+}
+
+.letraAmplia:hover {
+  transition: 4s;
+  font-size: 3rem;
+}
+
+
+
+
+h4{
+	font-family: "Montserrat";
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	color: White;
+	font-size: 30px;
+}
+
+h5{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400px;
+	letter-spacing: 5px;
+	text-align: center;
+	color: Black;
+	font-size: 16px;
+
+}
+
+h6{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: White;
+	font-size: 16px;
+
+}
+
+.textitos{
+	font-family: "roboto";
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-align: center;
+	size: 12px;
+
+}
+
+.tamanios{
+
+	height: 658px;
+	background-size: cover;
+
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+}
+
+.boxColorido{
+	background-image: url("../img/contactoMats.jpg");
+	border: none;
+	width: 50%;
+	color: white;
+	font-family: Montserrat;
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-align: center;
+	font-weight: bold;	
+}
+
+
+.boxNegra{
+
+		
+	background-image: url("../img/contactoPiso.jpg");
+	border: none;
+	width: 49%;
+
+}
+
+
+fieldset{
+	padding-top: 55px;
+	border: none;
+}
+
+.row row-cols-4{
+	height: 200px;
+}
