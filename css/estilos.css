@@ -33,6 +33,15 @@ h3{
 	color: #FFA800;
 }
 
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	letter-spacing: 7px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
 
 p{
 	font-family: "roboto";
@@ -42,6 +51,7 @@ p{
 	margin-left: 20%;
 	margin-right: 20%
 }
+
 
 ul{
 	list-style: none;
@@ -86,9 +96,8 @@ hr{
 .fileteCentro{
 	color: #F29E32;
 	text-align: center;
-	size: 12px;
-	width: 77px;
-
+	size: 122px;
+	width: 777px;
 }
 
 .textoTitulitos{
