@@ -36,7 +36,8 @@ h3 {
   text-align: left;
   text-transform: uppercase;
   font-size: 18px;
-  color: #FFA800; }
+  color: #FFA800;
+  baseline: -3px; }
 
 p {
   font-family: "roboto";
@@ -133,3 +134,9 @@ textarea {
 
 value {
   border: none; }
+
+div.container-fluid {
+  margin-top: 1rem;
+  margin-right: 15rem;
+  margin-left: 15rem; 
+}
