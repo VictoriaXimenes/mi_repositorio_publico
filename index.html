@@ -21,35 +21,56 @@
 <body>
 
    <!-- Barra de navegación -->
-    <nav class="encabezado">
-        <img src="img/logo header manos y pies.jpg" alt="logo">
-        <a href="index.html"> <h3> ASHTANGA <b>YOGA</b> BA . </h3>
-        <ul>             
-            <li><a href="la_escuela.html">La escuela</a></li>
-            <li><a href="workshops.html">Workshops</a>
-                <ul>
-                 <li><a href="workshops.html">Lino Miele 2020</a></li>
-                 <li><a href="workshops.html">Lino Miele 2019</a></li>
-                </ul>
-            </li>    
-            <li><a href="horarios.html">Horarios</a></li>
-            <li><a href="#Contacto">Contacto</a></li> <!--FORMULARIO-->
-        </ul>
-        <br>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html"><h3>ASHTANGA YOGA</h3></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="la_escuela.html">La escuela</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacto">Contacto</a> <!--FORMULARIO-->
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="horarios.html">Horarios</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="workshops.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Workshops
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="workshops.html">Workshop 2020</a></li>
+                <li><a class="dropdown-item" href="workshops.html">Workshop 2019</a></li>
+                <li><a class="dropdown-item" href="workshops.html">Workshop 2018</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
+<!-- Fin barra de navegación -->
     
     <header>
-        <img  class="imagenApertura" src="img/sala yoga burko.jpg" alt="sala yoga vacia">
-            <br>
-            <br>
+        <img  class="imagenApertura" src="img/salaYogaBurko.jpg" alt="sala yoga vacia">
+            
+            
         <img width="200" class="logoashtangaBA" src="img/manos y pies RGB en 72 dpi.jpg" alt="logo de la sala">
             <br>
         <h1 class="letraAmplia"> ASHTANGA YOGA BA </h1>
             <br>
-        <hr color=#FFA800 size=4px width="77px">
+        <hr size="6px">
             <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, temporibus gnissimos sequi et voluptatem totam deleniti, quod voluptas dolor accusantium at blanditiis! Similique consequatur olorem natus voluptates fugit, optio asperiores.</p>
+        <p>El propósito general del Yoga, tal como lo enseñaron los yoguis, santos y sabios de la India, es buscar una experiencia del ser que esté ausente del sufrimiento. Algunos han llamado a esto liberación, iluminación, nirvana, la dicha del ser y una multitud de otros nombres. .</p>
     </header>
 
     <!-- Contenido principal -->
@@ -77,11 +98,11 @@
     <main>
         <h2>GALERIA DE FOTOS</h2>  
 
-        <hr color=#FFA800 size=4 width="77">
+        <hr size="6px">
             <br>
             <br>
 
-        <section class="contenedor-galeria">
+        <section class="contenedorGaleria">
             <img class="img" src="img/foto1.jpg" alt="workshop con Lino Miele" >  
             <img class="img" src="img/foto2.jpg" alt="foto practica en clase" > 
             <img class="img" src="img/foto3.jpg" alt="foto relajacion" >  
@@ -92,35 +113,24 @@
         </section>
     </main>
 
-    <!-- seccion4-->
-
-    <section>
-            <br>
-            <br>
-        <h2>TIENDA YOGA</h2>
-
-        <hr color=#FFA800 size=4 width="77">
-            <br>
-
-                <ul class="textoTitulines">
-                    <li><a href="Libros.html">Libros</a></li>
-                    <li><a href="DVD´s.html">Dvd´s</a></li>
-                    <li><a href="ComidaSana">Comida Sana</a></li>
-                    <li><a href="Mats.html">Alfombritas</a></li> 
-                </ul>
-    </section>
+  
 
     <!-- seccion5-->
 
    
             <br>
+            <br>
+            <br>
+            <br>
         <a name="Contacto" id="Contacto"></a> 
+        
         
         <h2>CONTACTO</h2>
             
-        <hr color=#FFA800 size=4 width="77">
+        <hr size="6px">
+       
             <br>
-
+            <br>
        
     <div class="tamanios boxColorido">
             <br>
@@ -130,7 +140,7 @@
         Charlone 155, 
             <br>
         Buenos Aires
-        <hr color=#FFA800 size=4 width="77">
+        <hr size="6px">
             <br>
     </div>
 
@@ -138,38 +148,45 @@
     <div class="tamanios boxNegra">
         
        <form action="#" method="GET">
-           <fieldset class="imagenFondo">
-                    
+       
+            <br>    
+            <br>  
+            <div>
                 <input type="text" placeholder="Nombre">
-                    <br>
-                    <br>
-                <input type="text" placeholder="Apellido">
-                    <br>
-                    <br>
-                <input type="tel" placeholder="Celular">
-                    <br>
-                    <br>
-                <input type="email" placeholder="Email">
-                    <br>
-                    <br>
-                    
+                <input type="text" placeholder="Apellido">                
+            </div>
+              
+            <br>
+
+            <div>
+                 <input type="tel" placeholder="Celular">
+                 <input type="email" placeholder="Email">
+            </div>        
+               
+            <br>
+
+                <input type="text" placeholder="Asunto">
+                <br>
+                <br>
+                <textarea name="Consulta" placeholder="Escriba su consulta aquí..." cols="73" rows="8"></textarea>
+                <br>
+                <br>
+            <div>
                 Experiencia
                 <select name="Experiencia">
                 <option value="Pricipiante">Principiante</option>
                 <option value="Intermedia">Intermedia</option>
                 <option value="Avanzada">Avanzada</option>
                 </select>
-                    <br>
-                    <br>
-
-                <textarea name="Consulta" placeholder="Escriba su consulta aquí..." cols="30" rows="10"></textarea>
-                    <br>
-                    <br>
                 <input type="checkbox" name="novedades" value="N" />Suscribirse al newsletter?
-                    <br>
-                    <br>
-                <input type="reset" value="Limpiar formulario" />  <input type="submit" value="Enviar" />
-           </fieldset>
+            </div>
+
+            <<br>
+
+            <div class="d-grid gap-2 col-9 mx-auto">
+                <button class="btn btn-dark" type="button">Enviar</button>
+            </div>
+      
        </form>
         
     </div>

@@ -17,22 +17,42 @@
 
 <body>
     <!-- Barra de navegación -->
-     <nav class="encabezado">
-        <img src="img/logo header manos y pies.jpg" alt="logo">
-        <a href="index.html"> <h3> ASHTANGA YOGA BA . </h3>
-        <ul>             
-            <li><a href="la_escuela.html">La escuela</a></li>
-            <li><a href="workshops.html">Workshops</a>
-                <ul>
-                 <li><a href="workshops.html">Lino Miele 2020</a></li>
-                 <li><a href="workshops.html">Lino Miele 2019</a></li>
-                </ul>
-            </li>    
-            <li><a href="horarios.html">Horarios</a></li>
-            <li><a href="index.html #Contacto">Contacto</a></li> <!--FORMULARIO-->
-        </ul>
-        <br>
-    </nav>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+
+    
+    <a class="navbar-brand" href="index.html"><h3>ASHTANGA YOGA</h3></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="la_escuela.html">La escuela</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Index.html #Contacto">Contacto</a> <!--FORMULARIO-->
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="horarios.html">Horarios</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="workshops.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Workshops
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="workshops.html">Workshop 2020</a></li>
+            <li><a class="dropdown-item" href="workshops.html">Workshop 2019</a></li>
+            <li><a class="dropdown-item" href="workshops.html">Workshop 2018</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
     <!-- main -->
     <main>
