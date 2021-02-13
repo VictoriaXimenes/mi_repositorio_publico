@@ -43,14 +43,17 @@
             <li class="nav-item">
               <a class="nav-link" href="horarios.html">Horarios</a>
             </li>
+             <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tienda.html">Tienda Yoga</a>
+            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="workshops.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Workshops
-              </a>
+              <a class="nav-link dropdown-toggle" href="workshops.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Workshops</a>
+
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="workshops.html">Workshop 2020</a></li>
-                <li><a class="dropdown-item" href="workshops.html">Workshop 2019</a></li>
-                <li><a class="dropdown-item" href="workshops.html">Workshop 2018</a></li>
+                <li><a class="dropdown-item" href="workshops.html">Workshop 2021</a></li>
+                <li><a class="dropdown-item" href="workshops.html #wsh2020">Workshop 2020</a></li>
+                <li><a class="dropdown-item" href="workshops.html #wsh2019">Workshop 2019</a></li>
+                <li><a class="dropdown-item" href="workshops.html #wsh2018">Workshop 2018</a></li>
               </ul>
             </li>
           </ul>
@@ -66,7 +69,7 @@
             <br>
         <img width="200" class="logoashtangaBA" src="img/manos y pies RGB en 72 dpi.jpg" alt="logo de la sala">
             <br>
-        <h1 class="letraAmplia"> ASHTANGA YOGA BA </h1>
+        <h1 class="letraAmplia"> ASHTANGA <strong>YOGA</strong> BA </h1>
             <br>
         <hr size="6px">
             <br>
@@ -81,10 +84,23 @@
         <br>
             <div class="container-fluid">
                 <div class="row row-cols-4 text-center">
-                    <div class="col bg-light"><h5><b>CONTACTO</b>><br>mailyoga@gmail.com</h5> </div>
-                    <div class="col bg-secondary text-white"><h6><b>DIRECCION</b> <br> Charlone 155, Buenos Aires</h6></div>
-                    <div class="col bg-light"><h5><b>ANDREA MARTINEZ</b> <br>11 5621 4589</h5></div>
-                    <div class="col bg-warning"><h5><b>HORARIOS</b><br> Ver horarios de verano</h5></div>
+
+                    <div class="col bg-light tipoNegra"> 
+                    <a href="#Contacto"><b>CONTACTO</b> <br>mailyoga@gmail.com </a>
+                    </div>
+                    
+                    <div class="col bg-secondary tipoBlanca">
+                    <b>DIRECCIÓN</b> <br> Charlone 155, Bs. As.
+                    </div>
+                    
+                    <div class="col bg-light tipoNegra">
+                    <b>ANDREA MARTÍNEZ</b> <br>11 5621 4589
+                    </div>
+                    
+                    <div class="col bg-warning tipoBlanca">
+                    <a href="horarios.html"><b>HORARIOS</b> <br> Todos los niveles</a>
+                    </div>
+
                 </div>
             </div>
         <br>
@@ -96,7 +112,7 @@
     <!-- seccion3-->
 
     <main>
-        <h2>GALERIA DE FOTOS</h2>  
+        <h2>GALERÍA DE FOTOS</h2>  
 
         <hr size="6px">
             <br>
@@ -135,7 +151,7 @@
     <div class="tamanios boxColorido">
             <br>
             <br>
-        <h4>DIRECCION</h4>
+        <h4>DIRECCIÓN</h4>
             <br>
         Charlone 155, 
             <br>
@@ -149,8 +165,8 @@
         
        <form action="#" method="GET">
        
-            <br>    
-            <br>  
+                <br>    
+                <br>  
             <div>
                 <input type="text" placeholder="Nombre">
                 <input type="text" placeholder="Apellido">                
@@ -163,7 +179,7 @@
                  <input type="email" placeholder="Email">
             </div>        
                
-            <br>
+                <br>
 
                 <input type="text" placeholder="Asunto">
                 <br>
@@ -199,12 +215,17 @@
 
     <!-- footer -->
     <footer>
+
+        <div class="fondoFooter tipoBlanca"> Ashtanga Yoga BA
+            <br>
+          Charlone 155, Buenos Aires  
+        </div>
+
         <ul class="fondoFooter">
-            <li>Mail</li>
-            <li><a href="http://www.facebook.com/ashtangaba">Facebook</a></li>  
-            <li>Instagram</li>
-            <li>Twitter</li>
+            <li class="h3"><a href="http://www.facebook.com/ashtangaba">Facebook /</a></li>  
+            <li class="h3"><a href="https://www.instagram.com/ashtangaba/?hl=es-la"> Instagram</a></li>
         </ul>
+
     </footer>
 
     <!-- Bootstrap Bundle with Popper -->
