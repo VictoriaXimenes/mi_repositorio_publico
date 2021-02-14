@@ -5,9 +5,9 @@
 
 
 $naranja: #FFA800;
-$naranjaDark:#F2640E !important;
+$naranjaDark:#F2640E;
 
-nav.encabezado{
+.encabezado{
 		display:flex;
 		flex-direction:row;
 		justify-content:space-around;
@@ -52,7 +52,6 @@ h3{
 	text-transform: uppercase;
 	font-size: 18px;
 	color: #FFA800;
-	baseline:-3px;
 }
 
 h4{
@@ -62,7 +61,6 @@ h4{
 	text-transform: uppercase;
 	font-size: 2rem;
 	color: white;
-	baseline: -3px;
 	text-decoration: none;
 }
 
@@ -163,7 +161,7 @@ ul li:hover ul{
 }
 
 
-a.navbar-brand{
+.navbar-brand{
 	margin-left: 15%;
 }
 /* IMAGENES */
@@ -196,7 +194,7 @@ section.contenedorGaleria{
 
 /* MAS CLASES */
 
-div.tamanios{
+.tamanios{
 	height: 658px;
 	background-size: cover;
 
@@ -207,7 +205,7 @@ div.tamanios{
 	padding-right: 15px;
 }
 
-div.boxColorido{
+.boxColorido{
 	background-image: url("../img/contactoMats.jpg");
 	border: none;
 	width: 50%;
@@ -220,7 +218,7 @@ div.boxColorido{
 
 }
 
-div.boxNegra{
+.boxNegra{
 	background-image: url("../img/contactoPiso.jpg");
 	border: none;
 	width: 49%;
@@ -258,37 +256,4 @@ value{
 .elemento{
 	text-align: center;
 }
-
-
-.img-carousel{
-	height: 50vh;
-	margin: 0 auto;
-}
-
-.carousel-control-next-icon{
-	right:40px; 
-}
-
-.carousel-control-prev-icon{
-	left: 40px;
-	opacity: 100;
-	
-	}
-
-
-.carousel-control-next{
-	opacity: 0;
-	background: none;
-	border: none;
-	
-	}
-
-.carousel-control-prev{
-	opacity: 0;
-	background: none;
-	border:none;
-	
-	}
-
-
 

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0; }
 
-nav.encabezado {
+.encabezado {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -37,8 +37,7 @@ h3 {
   text-align: left;
   text-transform: uppercase;
   font-size: 18px;
-  color: #FFA800;
-  baseline: -3px; }
+  color: #FFA800; }
 
 h4 {
   font-family: "Montserrat";
@@ -47,7 +46,6 @@ h4 {
   text-transform: uppercase;
   font-size: 2rem;
   color: white;
-  baseline: -3px;
   text-decoration: none; }
 
 p {
@@ -88,7 +86,7 @@ p {
   padding-bottom: 1rem; }
 
 hr {
-  color: #F2640E !important;
+  color: #F2640E;
   width: 77px;
   text-align: center;
   margin: 35px 47% 15px; }
@@ -128,7 +126,7 @@ ul li:hover ul {
 .justify-content-end {
   padding-right: 15%; }
 
-a.navbar-brand {
+.navbar-brand {
   margin-left: 15%; }
 
 /* IMAGENES */
@@ -152,7 +150,7 @@ section.contenedorGaleria {
   opacity: 45%; }
 
 /* MAS CLASES */
-div.tamanios {
+.tamanios {
   height: 658px;
   background-size: cover;
   overflow: hidden;
@@ -161,7 +159,7 @@ div.tamanios {
   padding-left: 15px;
   padding-right: 15px; }
 
-div.boxColorido {
+.boxColorido {
   background-image: url("../img/contactoMats.jpg");
   border: none;
   width: 50%;
@@ -172,7 +170,7 @@ div.boxColorido {
   text-align: center;
   font-weight: bold; }
 
-div.boxNegra {
+.boxNegra {
   background-image: url("../img/contactoPiso.jpg");
   border: none;
   width: 49%; }
@@ -187,7 +185,7 @@ value {
   border: none; }
 
 .fondoFooter {
-  background-color: #F2640E !important;
+  background-color: #F2640E;
   height: 95px;
   text-align: center; }
 
@@ -201,24 +199,3 @@ value {
 
 .elemento {
   text-align: center; }
-
-.img-carousel {
-  height: 50vh;
-  margin: 0 auto; }
-
-.carousel-control-next-icon {
-  right: 40px; }
-
-.carousel-control-prev-icon {
-  left: 40px;
-  opacity: 100; }
-
-.carousel-control-next {
-  opacity: 0;
-  background: none;
-  border: none; }
-
-.carousel-control-prev {
-  opacity: 0;
-  background: none;
-  border: none; }
