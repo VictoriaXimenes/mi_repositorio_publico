@@ -148,7 +148,7 @@ section.contenedorGaleria {
     width: 100%;
     border-radius: 7px; }
 
-.img:hover {
+.trans:hover {
   opacity: 45%; }
 
 /* MAS CLASES */
@@ -201,3 +201,24 @@ value {
 
 .elemento {
   text-align: center; }
+
+.img-carousel {
+  height: 50vh;
+  margin: 0 auto; }
+
+.carousel-control-next-icon {
+  right: 40px; }
+
+.carousel-control-prev-icon {
+  left: 40px;
+  opacity: 100; }
+
+.carousel-control-next {
+  opacity: 0;
+  background: none;
+  border: none; }
+
+.carousel-control-prev {
+  opacity: 0;
+  background: none;
+  border: none; }

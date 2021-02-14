@@ -190,7 +190,7 @@ section.contenedorGaleria{
     }
 }
 
-.img:hover {
+.trans:hover {
 	opacity: 45%;
 }
 
@@ -258,6 +258,37 @@ value{
 .elemento{
 	text-align: center;
 }
+
+
+.img-carousel{
+	height: 50vh;
+	margin: 0 auto;
+}
+
+.carousel-control-next-icon{
+	right:40px; 
+}
+
+.carousel-control-prev-icon{
+	left: 40px;
+	opacity: 100;
+	
+	}
+
+
+.carousel-control-next{
+	opacity: 0;
+	background: none;
+	border: none;
+	
+	}
+
+.carousel-control-prev{
+	opacity: 0;
+	background: none;
+	border:none;
+	
+	}
 
 
 
