@@ -1,7 +1,3 @@
-*{
-	margin:0;
-	padding: 0;
-}
 
 
 $naranja: #FFA800;
@@ -22,28 +18,49 @@ a{
 
 /* TIOGRAFIA */
 
-h1{
-	font-family: 'Montserrat';
-	font-weight: 500;
+h1.letraAmplia{
+	font-family:'Montserrat', sans-serif;
+	font-size: 35px;
 	letter-spacing: 5px;
 	text-align: center;
 	text-transform: uppercase;
-
 	}
 
-.letraAmplia:hover {
-  transition: 4s;
-  font-size: 3rem;
+	@media screen and (max-width: 600px) {
+	h1.letraAmplia{
+	font-size: 25px;
+	letter-spacing: 3px;
+	}	
 }
 
 
-h2{
+h1.letraAmplia:hover {
+	  transition: 3s;
+	  font-size: 45px;
+	}
+
+@media screen and (max-width: 600px) {
+	div.letraAmplia:hover{
+	transition: 3s;
+	  font-size: 45px;
+	}	
+}
+
+h2.titulos{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	letter-spacing: 7px;
 	text-align: center;
 	text-transform: uppercase;
 }
+
+@media screen and (max-width: 600px) {
+	h2.titulos{
+	font-size: 20px;
+	letter-spacing: 4px;
+	}	
+}
+
 
 h3{
 	font-family: "Montserrat";
@@ -64,13 +81,22 @@ h4{
 	text-decoration: none;
 }
 
-p{
+.textoParrafo{
 	font-family: "roboto";
 	text-align: center;
 	letter-spacing: 1px;
 	line-height: 2;
 	margin-left: 20%;
-	margin-right: 20%
+	margin-right: 20%;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	.textoParrafo{
+	margin-left: 12%;
+	margin-right: 12%;
+	font-size: 15px;
+	}	
 }
 
 .textoMediano {
@@ -109,9 +135,9 @@ p{
 
 hr{
 	color:$naranjaDark;
-	width: 77px;
-	text-align: center;
-	margin: 35px 47% 15px 
+	width: 10%;
+    text-align: center;
+    margin: 35px 45% 15px;
 }
 
 
@@ -170,6 +196,13 @@ img.imagenApertura{
 	width: 100%
 }
 
+@media screen and (max-width: 600px) {
+	img.imagenApertura{
+	width:200%;
+	transform: translateX(-28%);
+	}	
+}
+
 img.logoashtangaBA{
 	margin-left:42%;
 	width: 16%;
@@ -192,12 +225,37 @@ section.contenedorGaleria{
 	opacity: 45%;
 }
 
+
+/*probando media querys*/
+
+@media screen and (max-width: 992px) {
+	section.contenedorGaleria{
+	grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+	}	
+}
+
+@media screen and (max-width: 600px) {
+	section.contenedorGaleria{
+	grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(4,1fr);
+	}	
+}
+
+@media screen and (max-width: 600px) {
+	section.contenedorGaleria>:nth-child(even){
+    display: none;
+    }
+}
+
+
+
+
 /* MAS CLASES */
 
-.tamanios{
+div.tamanios{
 	height: 658px;
 	background-size: cover;
-
 	overflow: hidden;
 	text-align: center;
 	display: inline-block;
@@ -218,10 +276,23 @@ section.contenedorGaleria{
 
 }
 
+@media screen and (max-width: 600px) {
+	.boxColorido{
+	width: 100%;
+	}	
+}
+
 .boxNegra{
 	background-image: url("../img/contactoPiso.jpg");
 	border: none;
 	width: 49%;
+}
+
+
+@media screen and (max-width: 600px) {
+	.boxNegra{
+	width: 100%;
+	}	
 }
 
 input{
@@ -257,3 +328,19 @@ value{
 	text-align: center;
 }
 
+
+@media screen and (max-width: 600px) {
+	.row-cols-4>* {
+    flex: 0 0 auto;
+    width: 100%;}
+}	
+
+
+
+.anchoMail{
+	width: 66%;
+}
+
+.anchoMailX2{
+	width: 33%
+}
